@@ -1,53 +1,87 @@
-REALMASTERS CS2
----------------------------------------------------------------------------------------------------------------------
-Overview:
-RealMasters CS2 is a cheat development project on C# for educational purposes only. This project includes various cheat functionalities for the game CS2, such as aimbots, ESP, bunny hop, radar hacks, and more. The primary aim is to demonstrate how these features can be implemented and provide insight into game modification and cheating mechanisms.
+# RealMasters 2.5 - CS2 External Cheat
 
-Important Disclaimers:
-Educational Purposes Only: This cheat is designed for educational purposes to help understand how cheats and hacks can be developed and detected. Using cheats in online games can lead to permanent bans and negatively impact the gaming experience for others.
+Advanced external cheat for Counter-Strike 2 with modern UI and powerful features.
+![image](https://github.com/user-attachments/assets/45b08b32-7e5f-4bd0-a7db-d7dbc5aebcde)
+![image](https://github.com/user-attachments/assets/8ce3082e-0cfd-4454-a447-b21f9ee28ad8)
 
-Age Restriction: You must be at least 18 years old to use or experiment with this cheat. It is your responsibility to ensure that you comply with all applicable laws and terms of service.
+## Features
 
-No Unauthorized Use: Do not use this cheat to gain unfair advantage in any online game or disrupt other players' experiences. The developers and contributors are not responsible for any misuse of this software.
+### Aimbot
+- Smooth aimbot with customizable FOV
+- Multiple targeting modes (FOV, Distance, Health)
+- Bone selection (Head, Neck, Chest, etc.)
+- Recoil control system (RCS)
+- Trigger bot with customizable delay
+- Player lock option
+- Visibility checks
 
-Legality: Using cheats in online games is generally against the terms of service of most games and can lead to severe consequences including bans and legal actions. This software is provided with the understanding that it will not be used for malicious purposes.
-NOTE: Im not Responsable about any BAD USAGE
+### ESP (Wallhack)
+- Bounding boxes with customizable colors
+- Health bars
+- Armor bars
+- Player names
+- Weapon info
+- Distance
+- Skeleton ESP
+- Spotted-only option
 
-DETECTION: N/A (PLAY AT YOUR OWN RISK)
------------------------------------------------------------------------------------------------
-Features:
-- Aimbot with Multiple Hotkeys: Automatically aims at enemies with customizable hotkeys.
-- ESP Box: Displays boxes around enemies with options for visibility checks.
-- ESP Name and Health: Shows names and health of enemies in the ESP box.
-- Check Visibility of ESP: Configures visibility checks to show only visible enemies.
-- Radar Hack: Provides a radar view to locate enemies.
-- Anti Flash: Reduces or eliminates screen flash effects.
-- FOV View: Adjusts the field of view to enhance targeting and visibility.
-- And MORE...
----Installation :
-Prerequisites: Ensure you have .NET runtime installed.
-Build: Compile the source code using a compatible .NET compiler.
-Run: Execute the compiled binaries while the game is running.
-------------------------------------------------------------------
--- Usage:
-Aimbot:
--Toggle: Enable or disable the aimbot using the in-game menu.
--Hotkeys: Configure multiple hotkeys for the aimbot in the menu. Supported hotkeys include CTRL, SHIFT, ALT, MOUSE 1, MOUSE 2, MOUSE 4, and MOUSE 5.
--Aim On Closest: Choose whether the aimbot targets the closest enemy or all enemies based on distance.
--ESP Box:
--Enable: Turn on the ESP box feature via the in-game menu.
--Display: Shows boxes around enemies, with options to adjust colors and styles.
--ESP Name and Health:
--Enable: Activate name and health display for enemies in the ESP box from the menu.
--Configuration: Adjust display settings such as text size and colors.
--Check Visibility of ESP:
--Visibility Check: Configure whether the ESP box only shows enemies that are currently visible on the screen.
--Radar Hack:
--Activate: Enable the radar hack through the in-game menu.
--Configuration: Adjust radar settings to suit your preferences.
--Anti Flash
--Enable: Turn on the anti-flash feature to reduce or eliminate screen flash effects from the menu.
--FOV View:
--Adjust FOV: Modify the field of view settings from the in-game menu to enhance your targeting and visibility.
--Credits:
-This project was created and maintained by sniperstooth.
+### Misc
+- FOV Changer (60-140°)
+- Anti-Flash
+- Bomb Timer
+- Bomb Square Visual
+- Spectator List
+- Custom Sniper Crosshair
+- Dropped Item ESP
+- Auto Promotion (hvh.net)
+
+### UI Features
+- Modern ImGui interface
+- Customizable colors
+- Config system
+- Menu toggle key binding
+
+## Installation
+
+1. Download the latest release
+2. Extract all files to a folder
+3. Run RealMasters.exe as administrator
+4. Press INSERT to open/close menu
+
+## Requirements
+
+- Windows 10/11
+- Counter-Strike 2
+- Administrator privileges
+- Visual C++ Redistributable 2022
+
+## Files Included
+
+- RealMasters.exe - Main program
+- buttons.json - Button configurations
+- client.dll.json - Game offsets
+- offsets.json - Additional offsets
+- imgui.ini - UI configuration
+- fonts/ - Required font files
+
+## Usage
+
+1. Launch CS2 MAKE SURE YOU ARE IN FULLSCREEN WINDOWED
+2. Run RealMasters.exe as administrator
+3. Use INSERT key to toggle menu
+4. Configure features as desired
+
+## Important Notes
+
+- Keep all files in the same directory
+- Update offsets after CS2 updates
+- Run as administrator
+- Close any anti-cheat software
+
+## Disclaimer
+
+This software is for educational purposes only. Use at your own risk.
+
+## License
+
+This project is licensed under MIT License - see the LICENSE file for details. 
